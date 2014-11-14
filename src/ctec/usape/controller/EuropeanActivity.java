@@ -1,6 +1,6 @@
 package ctec.usape.controller;
 
-import ctec.usape.model.androidAppState;
+import ctec.usape.model.AndroidAppState;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class EuropeanActivity extends Activity
 {
-	private androidAppState appState;
+	private AndroidAppState appState;
 	private TextView comboText;
 	private Button homeButt;
 	
@@ -20,7 +20,7 @@ public class EuropeanActivity extends Activity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_european);
 		
-		appState = (androidAppState) getApplication();
+		appState = (AndroidAppState) getApplication();
 		comboText = (TextView) findViewById(R.id.combinedTextView);
 		homeButt = (Button) findViewById(R.id.homeButton);
 		

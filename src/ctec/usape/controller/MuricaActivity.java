@@ -1,6 +1,6 @@
 package ctec.usape.controller;
 
-import ctec.usape.model.androidAppState;
+import ctec.usape.model.AndroidAppState;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ public class MuricaActivity extends Activity
 {
 	private EditText ageField, nameField, phraseField, stuffField;
 	private Button changeButton;
-	private androidAppState appState;
+	private AndroidAppState appState;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -28,7 +28,7 @@ public class MuricaActivity extends Activity
 		stuffField = (EditText) findViewById(R.id.otherEditText);
 		changeButton = (Button) findViewById(R.id.swapButt);
 		
-		appState = (androidAppState) getApplication();
+		appState = (AndroidAppState) getApplication();
 		
 		setHeyListens();
 	}

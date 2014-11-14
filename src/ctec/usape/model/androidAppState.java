@@ -2,7 +2,7 @@ package ctec.usape.model;
 
 import android.app.Application;
 
-public class androidAppState extends Application
+public class AndroidAppState extends Application
 {
 	private String name;
 	private String phrase;
