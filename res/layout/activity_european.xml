@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/combinedTextView"
         android:layout_centerVertical="true"
-        android:text="Button" />
+        android:text="Home" />
 
 </RelativeLayout>
